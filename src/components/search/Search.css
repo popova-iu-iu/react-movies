@@ -1,0 +1,39 @@
+.search-container {
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.search-input {
+  width: calc(100% - 2rem);
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-btn {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: var(--btn-primary);
+  border: none;
+  border-radius: 4px;
+  color: var(--text-inverse);
+}
+
+.search-btn:hover {
+  cursor: pointer;
+}
+
+.search-radio {
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+.search-radio__text {
+  font-size: 1rem;
+  margin-left: 0.3rem;
+}

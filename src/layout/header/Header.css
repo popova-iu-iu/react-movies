@@ -1,0 +1,18 @@
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 3.2rem;
+  background-color: var(--bg-primary);
+
+  font-size: var(--fs);
+}
+
+.brand-logo {
+  color: var(--text-inverse);
+}
+
+.nav-items__item {
+  color: var(--text-inverse);
+}
